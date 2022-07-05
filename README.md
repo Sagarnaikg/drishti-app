@@ -1,16 +1,37 @@
-# drishti
+## 📱 Drishti Mobile App
 
-A app for visually impaired peoples
+Mobile App built using Flutter framework. 
 
-## Getting Started
+App Folder Structure
+```
+app
+├── resources
+│   ├── app_media.dart 
+│   ├── colors.dart
+│   ├── font_weights.dart
+│   └── theme_data.dart
+├── screens
+│   ├── home
+│   │   ├── bloc.dart
+│   │   └── screen.dart
+│   └── init
+├── utils
+│    └── strring_msg_constants.dart
+└── main.dart
+```
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Libraries used in the project
+- flutter_speech
+- flutter_tts
+- flare_flutter
+- camera
+- rxdart
+- async
+- http
 
-For help getting started with Flutter, view our
+
+For help getting started with Flutter, refer
 [online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+samples, guidance on mobile development, and a full API reference for flutter.
